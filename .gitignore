@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Flutter
+.dart_tool/
+build/
+.idea/
+.metadata
+*.iml
+pubspec.lock
+
+# Mac
+.DS_Store
