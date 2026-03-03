@@ -13,8 +13,8 @@ A full-stack prototype extending the MySQL Sakila database to implement asset he
 - Flutter UI (demo mode)
 
 ## Screenshots
-![App UI](screenshots/app_ui.png)
-![Query Output](screenshots/query_output.png)
+![App UI](screenshots/App_Screenshot.png)
+![Query Output](screenshots/Super_Query_Result.png)
 
 ## Tech Stack
 - MySQL
