@@ -3,8 +3,6 @@ import mysql.connector
 
 app = Flask(__name__)
 
-# --- DATABASE CONFIGURATION ---
-# Update 'password' with your actual MySQL root password
 db_config = {
     'user': 'root',
     'password': 'password',  # <--- CHANGE THIS
@@ -13,7 +11,6 @@ db_config = {
 }
 
 # --- THE RECOMMENDATION SUPER QUERY ---
-# We use %s placeholders so we can swap in different Customer IDs safely
 QUERY_RECOMMENDATIONS = """
 WITH 
 Target_User_Likes AS (
